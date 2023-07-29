@@ -1,0 +1,12 @@
+.results-list {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 8px #ddd;
+  border-radius: 10px;
+  margin: 1rem;
+  max-height: 300px;
+  overflow-y: scroll;
+  /* //if there are lots and lots of elements it creates a little scroll box so that the page doesn't get eternally long */
+}
